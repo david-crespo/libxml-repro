@@ -1,10 +1,9 @@
 use samael::metadata::{EntityDescriptor, NameIdFormat};
 use samael::service_provider::ServiceProviderBuilder;
 
-const SAML_RESPONSE_IDP_DESCRIPTOR: &str = include_str!(
-    "../../omicron/nexus/tests/integration_tests/data/saml_response_idp_descriptor.xml"
-);
-
+// from https://github.com/oxidecomputer/omicron/blob/9093ac615027f7050eaaa14d0ec914ae3abcfb33/nexus/tests/integration_tests/data/saml_response_idp_descriptor.xml
+const SAML_RESPONSE_IDP_DESCRIPTOR: &str = include_str!("../saml_response_idp_descriptor.xml");
+// copied from debug print in test
 const SAML_RESPONSE: &str = include_str!("../base64_saml_response.txt");
 
 fn main() {
