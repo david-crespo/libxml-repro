@@ -1,0 +1,12 @@
+[package]
+name = "libxml-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# same as omicron
+# chrono = { version = "0.4", features = [ "serde" ] }
+openssl = "0.10"
+samael = { version = "0.0.17", features = ["xmlsec"] }
