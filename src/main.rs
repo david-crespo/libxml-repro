@@ -1,4 +1,4 @@
-use samael::metadata::{EntityDescriptor, NameIdFormat};
+use samael::metadata::EntityDescriptor;
 use samael::service_provider::ServiceProviderBuilder;
 
 // from https://github.com/oxidecomputer/omicron/blob/9093ac615027f7050eaaa14d0ec914ae3abcfb33/nexus/tests/integration_tests/data/saml_response_idp_descriptor.xml
